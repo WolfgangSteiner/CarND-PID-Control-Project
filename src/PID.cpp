@@ -11,7 +11,6 @@ PID::PID()
 , i_error_(0.0)
 , d_error_(0.0)
 , last_cte_(0.0)
-, total_cte_(0.0)
 {}
 
 PID::~PID() {}
@@ -27,7 +26,7 @@ void PID::UpdateError(double cte)
 {
   p_error_ = cte;
   d_error_ = (cte - last_cte_);
-  total_cte_ += cte;
+  i_error_ += cte;
   last_cte_ = cte;
 }
 
