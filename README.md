@@ -32,4 +32,4 @@ This resulted in the car drifting to the right side of the road, while
 still being able to complete the track. This artificial steering bias allowed me to find a value for Ki that resulted in the
 car keeping to the center of the road again.
  
-The final values used by my implementation are: Kp = 0.15, Ki = 0.001, and Kd = 16.0.
+The final values used by my implementation are: Kp = 0.225, Ki = 0.001, and Kd = 16.0.

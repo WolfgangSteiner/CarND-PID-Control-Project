@@ -2,3 +2,5 @@
 build
 tags
 .editorconfig
+PID Project Mac desktop Universal.app
+cmake-build-debug
